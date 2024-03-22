@@ -1,0 +1,277 @@
+.data {
+  flex: 1;
+  padding: 10px 0px 0px 20px;
+}
+
+.data__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.data__headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.data__headerLeft p {
+  font-size: 24px;
+}
+
+.data__headerRight svg {
+  margin: 0px 10px;
+  display: flex;
+}
+
+.container {
+  margin-right: 90px;
+}
+
+.check-button,
+.grid-button {
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid black;
+  display: flex;
+  float: left;
+  align-items: center;
+}
+
+.check-button {
+  background-color: rgb(218, 226, 226);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 4px 0px;
+  margin-left: 20px;
+}
+
+.grid-button {
+  background-color: #ffffff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 4px 0px;
+}
+
+.grid-button {
+  margin-left: -1px;
+}
+
+.check-button:hover,
+.grid-button:hover {
+  background-color: #dfd1d1;
+}
+
+.suggested {
+  display: flex;
+  float: left;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.file-button,
+.folder-button {
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid black;
+  display: flex;
+  float: left;
+  align-items: center;
+}
+
+.file-button {
+  background-color: rgb(218, 226, 226);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 4px 40px;
+  margin-left: 20px;
+}
+
+.folder-button {
+  background-color: #ffffff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 4px 30px;
+}
+
+.folder-button {
+  margin-left: -1px;
+}
+
+.file-button:hover,
+.folder-button:hover {
+  background-color: #dfd1d1;
+}
+
+.vertical-line {
+  border-left: 1px solid gray;
+  height: 30px;
+  width: 1px;
+  margin-left: 10px;
+}
+
+.type-button,
+.people-button,
+.modified-button,
+.location-button {
+  background-color: #ffffff;
+  color: gray;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  float: left;
+  align-items: center;
+  padding: 4px 18px;
+  margin-left: 10px;
+}
+
+.type-button:hover {
+  background-color: whitesmoke;
+}
+
+.people-button:hover {
+  background-color: whitesmoke;
+}
+
+.modified-button:hover {
+  background-color: whitesmoke;
+}
+
+.location-button:hover {
+  background-color: whitesmoke;
+}
+
+.type-button,
+.modified-button {
+  color: black;
+  border-color: black;
+}
+
+/* .data_grid {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.data__file {
+    text-align: center;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    min-width: 200px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+.data__file svg {
+    font-size: 60px;
+    color: gray;
+}
+
+.data__file p {
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+} */
+
+.data_list {
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+.detailsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.detailsRow:hover {
+  background-color: whitesmoke;
+}
+
+.detailsRow p {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.detailsRow p a {
+  display: flex;
+  float: left;
+  align-items: center;
+}
+
+.detailsRow p b {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.detailsRow p svg {
+  font-size: 22px;
+  margin: 10px;
+  color: gray;
+}
+
+.drive {
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+.drive:hover {
+  background-color: rgb(238, 226, 226);
+}
+
+.moreVertIcon {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.moreVertIcon:hover {
+  background-color: rgb(238, 226, 226);
+}
+
+.reason {
+  margin-left: 180px;
+}
+
+.owner {
+  margin-left: 40px;
+}
+
+.file-size {
+  margin-right: 120px;
+}
+
+.show-more-files-button {
+  background-color: #4285f4;
+  border: none;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 30px;
+  margin-left: 380px;
+  margin-top: 20px;
+}
+
+.show-more-files-button:hover {
+  background-color: #3b78e7;
+}
