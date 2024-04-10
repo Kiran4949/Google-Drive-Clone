@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/header.css";
+import "./style.css";
 import SearchIcon from "@material-ui/icons/Search";
 import FormatAlignCenterIcon from "@material-ui/icons/FormatAlignCenter";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";

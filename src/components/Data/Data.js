@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react"
-import "../css/data.css"
+import "./style.css";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import InfoIcon from "@material-ui/icons/Info";
@@ -7,7 +7,7 @@ import InsertDriveFileIcon from "@material-ui/icons/InsertDriveFile";
 import CheckIcon from "@material-ui/icons/Check";
 import FolderOpenIcon from "@material-ui/icons/FolderOpen";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import { db } from "../firebase";
+import { db } from "../../firebase";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import GridOnIcon from "@material-ui/icons/GridOn";
 

@@ -1,9 +1,9 @@
 import React from "react";
-import "../css/Rightsideicons.css";
+import "./style.css";
 import AddIcon from "@material-ui/icons/Add";
 import PersonIcon from "@material-ui/icons/Person";
 
-function Rightsideicons() {
+function RightSideIcons() {
   return (
     <div className="sideIcons">
       <div className="sideIcons__top">
@@ -20,4 +20,4 @@ function Rightsideicons() {
   );
 }
 
-export default Rightsideicons;
+export default RightSideIcons;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/sidebar.css";
+import "./style.css";
 import HomeIcon from "@material-ui/icons/Home";
 import MobileScreenShareIcon from "@material-ui/icons/MobileScreenShare";
 import DevicesIcon from "@material-ui/icons/Devices";
@@ -10,7 +10,7 @@ import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
 import CloudQueueIcon from "@material-ui/icons/CloudQueue";
 import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
 import { Modal } from "@material-ui/core";
-import { db, storage } from "../firebase";
+import { db, storage } from "../../firebase";
 import firebase from "firebase";
 
 function Sidebar() {

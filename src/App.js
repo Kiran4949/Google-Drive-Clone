@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./index.css";
-import Data from "./components/Data";
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
+import Data from "./components/Data/Data";
+import Header from "./components/Header/Header";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Rightsideicons from "./components/RightSideIcons/RightSideIcons";
 import { auth, provider } from "./firebase";
-import Rightsideicons from "./components/Rightsideicons";
 
 function App() {
   const [user, setUser] = useState(null);
